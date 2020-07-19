@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Yuyang Bing's book project",
   "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.14.5"
+  },
   "scripts": {
     "start": "nodemon -e js,graphql -w . -w .env server.js",
     "lint": "eslint .",
